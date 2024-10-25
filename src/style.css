@@ -8,5 +8,39 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: grey;
+    background-image: url('../src/Images/battleship.png');
+    background-color: rgba(128,128,128,0.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    background-attachment: fixed;
+}
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    font-size: 4rem;
+    color: white;
+    margin-top: 20px;
+}
+button {
+    margin: 10px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: slategrey;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

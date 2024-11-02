@@ -1,7 +1,7 @@
 import './style.css';
 import { Player } from './player';
 import { renderGameboards, setupEventListeners } from './dom';
-import { setupShipPlacement, resetShipPlacement } from './shipPlacement';
+import { setupShipPlacement, resetShipPlacement } from './setup';
 
 let player, computer;
 let isGameOver = false;
